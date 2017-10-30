@@ -2,17 +2,17 @@
 <html>
 
 <head>
-    <meta property="al:ios:url" content="%{APPLINK_URL}%" />
+    <meta property="al:ios:url" content="signquest://pathtosign/id/100500" />
     <meta property="al:ios:app_store_id" content="1282453211" />
     <meta property="al:ios:app_name" content="SignQuest" />
     <meta property="og:title" content="Find the Sign" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="%{PREVIEW_IMAGE_URL}%" />
+    <meta property="og:image" content="http://via.placeholder.com/350x150" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Simple Transactional Email</title>
     <script>
-        function DetectAndServe() {
+        function DetectAndRedirectToStore() {
             if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
                 window.location.href = 'http://play.google.com/store/apps/details?id=com.aiarlabs.signquest&hl=en';
             }
@@ -24,7 +24,8 @@
             }
         };
 
-        function OpenInApp() {;
+        function OpenInApp() {
+            window.location.href = "signquest://pathtosign/id/100500";
         };
     </script>
     <style>
@@ -388,7 +389,7 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>
-                                                                            <a href="javascript:DetectAndServe()" target="_blank">Download the App</a>
+                                                                            <a href="javascript:DetectAndRedirectToStore()" target="_blank">Download the App</a>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -406,7 +407,7 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>
-                                                                            <a href="https://dzamataev.github.io/app/pathtosign/id/100500" target="_blank">Open in App</a>
+                                                                            <a href="javascript:OpenInApp()" target="_blank">Open in App</a>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
