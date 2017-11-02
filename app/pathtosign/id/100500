@@ -5,7 +5,7 @@
     <title>Sign</title>
     <meta property="og:title" content="Sign" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dzamataev.github.io/app/pathtosign/id/100500" />
+    <meta property="og:url" content="https://dzamataev.github.io/app/pathtosign/id/100500/" />
     <meta property="og:image" content="http://via.placeholder.com/350x150.png" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="350">
@@ -36,9 +36,6 @@
         };
     </script>
     <style>
-        /* -------------------------------------
-          GLOBAL RESETS
-      ------------------------------------- */
 
         img {
             border: none;
@@ -71,16 +68,11 @@
             vertical-align: top;
         }
 
-        /* -------------------------------------
-          BODY & CONTAINER
-      ------------------------------------- */
 
         .body {
             background-color: #f6f6f6;
             width: 100%;
         }
-
-        /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 
         .container {
             display: block;
@@ -91,8 +83,6 @@
             width: 580px;
         }
 
-        /* This should also be a block element, so that it will fill 100% of the .container */
-
         .content {
             box-sizing: border-box;
             display: block;
@@ -100,10 +90,6 @@
             max-width: 580px;
             padding: 10px;
         }
-
-        /* -------------------------------------
-          HEADER, FOOTER, MAIN
-      ------------------------------------- */
 
         .main {
             background: #ffffff;
@@ -136,10 +122,6 @@
             font-size: 12px;
             text-align: center;
         }
-
-        /* -------------------------------------
-          TYPOGRAPHY
-      ------------------------------------- */
 
         h1,
         h2,
@@ -181,10 +163,6 @@
             color: #3498db;
             text-decoration: underline;
         }
-
-        /* -------------------------------------
-          BUTTONS
-      ------------------------------------- */
 
         .btn {
             box-sizing: border-box;
@@ -230,10 +208,6 @@
             border-color: #3498db;
             color: #ffffff;
         }
-
-        /* -------------------------------------
-          OTHER STYLES THAT MIGHT BE USEFUL
-      ------------------------------------- */
 
         .last {
             margin-bottom: 0;
@@ -290,10 +264,6 @@
             Margin: 20px 0;
         }
 
-        /* -------------------------------------
-          RESPONSIVE AND MOBILE FRIENDLY STYLES
-      ------------------------------------- */
-
         @media only screen and (max-width: 620px) {
             table[class=body] h1 {
                 font-size: 28px !important;
@@ -336,10 +306,6 @@
             }
         }
 
-        /* -------------------------------------
-          PRESERVE THESE STYLES IN THE HEAD
-      ------------------------------------- */
-
         @media all {
             .ExternalClass {
                 width: 100%;
@@ -376,11 +342,7 @@
             <td>&nbsp;</td>
             <td class="container">
                 <div class="content">
-
-                    <!-- START CENTERED WHITE CONTAINER -->
                     <table class="main">
-
-                        <!-- START MAIN CONTENT AREA -->
                         <tr>
                             <td class="wrapper">
                                 <table border="0" cellpadding="0" cellspacing="0">
@@ -427,14 +389,9 @@
                                 </table>
                             </td>
                         </tr>
-
-                        <!-- END MAIN CONTENT AREA -->
                     </table>
-
-                    <!-- END CENTERED WHITE CONTAINER -->
                 </div>
             </td>
-            <td>&nbsp;</td>
         </tr>
     </table>
 </body>
