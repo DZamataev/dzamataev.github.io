@@ -2,15 +2,18 @@
 <html>
 
 <head>
+    <title>Sign</title>
+    <meta property="og:title" content="Sign" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dzamataev.github.io/app/pathtosign/id/100500" />
+    <meta property="og:image" content="http://via.placeholder.com/350x150.jpg" />
+    <meta property="og:description" content="Find the Sign!" />
     <meta property="al:ios:url" content="signquest://pathtosign/id/100500" />
     <meta property="al:ios:app_store_id" content="1282453211" />
     <meta property="al:ios:app_name" content="SignQuest" />
-    <meta property="og:title" content="Find the Sign" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://via.placeholder.com/350x150" />
+    <meta property="fb:app_id" content="1933350806882697" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Simple Transactional Email</title>
     <script>
         function DetectAndRedirectToStore() {
             if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
